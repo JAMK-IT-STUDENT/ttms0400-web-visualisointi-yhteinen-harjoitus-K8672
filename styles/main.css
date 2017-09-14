@@ -9,9 +9,12 @@ body {
 }
 
 header, section, nav, main, article {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     width: 100vw;
     padding: 15px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -25,6 +28,7 @@ header {
 
 main {
     background-color: #EAEDF0;
+    height: 600px;
 }
 
 section {
@@ -38,7 +42,7 @@ section {
 }
 
 .bg-red {
-    background-color: #F09A9O;
+    background-color: #F09A9D;
 }
 
 .bg-purple {
